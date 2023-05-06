@@ -28,7 +28,7 @@ export const data = [
    category: "Cough syrup",
    sub_category: "",
    ingredient_1: "Dextromethorphan",
-   ingredient_2: ", Phenlyephrine",
+   ingredient_2: "Phenlyephrine",
    unit: "Syrup",
    ptr: 58.57,
    gst_percent: "12%",

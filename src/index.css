@@ -28,9 +28,9 @@ code {
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 1rem;
-    font-size: 2rem;
+    font-size: 3vw;
     font-weight: bolder;
-    width: 35%;
+    width: 30%;
 
 }
 
@@ -60,6 +60,7 @@ code {
    margin-bottom: auto;
    margin-left: 0px;
    margin-right: auto;
+   font-size: 2vw;
    width: 50%;
    word-wrap: normal;
 }
@@ -137,7 +138,7 @@ code {
   text-decoration: none;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown:active .dropdown-content {
   display: block;
 }
 
