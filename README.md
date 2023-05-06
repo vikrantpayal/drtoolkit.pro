@@ -1,3 +1,46 @@
+# DrToolkit.pro
+
+## ABOUT
+fast tool for doctors (allopathy)
+
+## MAJOR BUSINESS FEATURES
+- [ ] Medicine search
+
+## MINOR TOOL FEATURES
+- [ ] burger menu
+- [ ] about page
+- [ ] Auth
+- [ ] blog
+- [ ] medicine search bells and whistles
+    - [ ]  
+
+
+## PURE DEV FEATURES
+- [ ] make header, menu common across pages
+- [ ] create a dev branch
+    - [ ] push to github
+    - [ ] aws amplify set up test version of site, connect to dev branch
+
+### NETWORKING INFORMATION
+hosting with whois
+domain drtoolkit.pro (.com is with Google LLC, presumably because they were planning to launch some disaster recovery toolkit. screw them).
+
+### CICD
+AWS Amplify
+
+### FRONTEND 
+React
+
+### GITHUB
+https://github.com/vikrantpayal/drtoolkit.pro
+
+#### REFERENCE, LIBRARIES, RESOURCES
+dynamic filter
+https://www.youtube.com/watch?v=xAqCEBFGdYk
+https://github.com/fireclint/filter-contact-list-react
+
+ - - - -
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
