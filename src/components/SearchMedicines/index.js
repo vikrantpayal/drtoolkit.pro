@@ -12,7 +12,6 @@ class SearchMedicines extends Component {
   render() {
     return (
       <>
-        <h1>Search Medicines</h1>
         <SearchBox />
       </>
     )
