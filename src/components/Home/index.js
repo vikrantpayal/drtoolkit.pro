@@ -5,14 +5,14 @@ class Home extends Component {
   render() {
     return (
       <>
-	<p/>	
-        <h1>Home</h1>
-        <p><br/>
-         <h2>About Dr. Toolkit Pro</h2><br/>
-         Fast, simple tools for Allopathy practitioners across India.<br/>
+        <br/>
+         <h2>About Dr. Toolkit Pro</h2>
+         <br/>     
+         <p>Fast, simple tools for Allopathy practitioners across India.</p>
+         <p>
          This toolkit started with an idea - making life easier for busy healthcare professionals. 
          The first tool we have built is a fast search.  
-         Click on Search Medicines in the menu to get started.
+         Click on Search Medicines in the menu to try it.
          </p>
          <p>
          The <b>Search Medicines</b> tool helps doctors quickly query
