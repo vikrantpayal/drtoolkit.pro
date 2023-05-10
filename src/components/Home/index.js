@@ -23,8 +23,7 @@ class Home extends Component {
          instantly, while you key in the search. 
          </p>
          <p>
-         We will be keeping the tools free through 2023 for the first hundred practitioners using Dr. Toolkit Pro. 
-         </p>
+         More tools coming soon..</p>
          <br/>
          <p><i>~ Dr. Abhishek Payal</i></p>
       </>
