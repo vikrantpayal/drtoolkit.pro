@@ -13,7 +13,6 @@ class App extends Component{
     render(){
        return( <BrowserRouter>
             <Header />
-                <SearchMedicines />
                 <main className="flex-shrink-0">
                     <div className="container">
                         <Routes>
