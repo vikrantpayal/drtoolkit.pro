@@ -1,0 +1,10 @@
+ul.navbar-nav a {
+  text-decoration: none;
+  margin: 0 10px 0 20px;
+  color: #e0e0e0;
+  
+}
+
+ul.navbar-nav a:hover {
+  color: lightblue;
+}

@@ -35,9 +35,12 @@ React
 https://github.com/vikrantpayal/drtoolkit.pro
 
 #### REFERENCE, LIBRARIES, RESOURCES
-dynamic filter
+# dynamic filter
 https://www.youtube.com/watch?v=xAqCEBFGdYk
 https://github.com/fireclint/filter-contact-list-react
+
+# routing
+https://www.freecodecamp.org/news/a-complete-beginners-guide-to-react-router-include-router-hooks/#what-is-routing
 
  - - - -
 
