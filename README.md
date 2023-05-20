@@ -7,12 +7,16 @@ fast tool for doctors (allopathy)
 - [ ] Medicine search
 
 ## MINOR TOOL FEATURES
-- [ ] burger menu
+- [x] burger menu
 - [ ] about page
+    - [x] temporary coverage on home page
 - [ ] Auth
 - [ ] blog
 - [ ] medicine search bells and whistles
-    - [ ]  
+    - [ ] offline copy
+    - [ ] maintain your own copy
+    - [ ] sync with master without losing your additions, removing duplicates
+    - [ ] my-notes  
 
 
 ## PURE DEV FEATURES
@@ -41,6 +45,14 @@ https://github.com/fireclint/filter-contact-list-react
 
 # routing
 https://www.freecodecamp.org/news/a-complete-beginners-guide-to-react-router-include-router-hooks/#what-is-routing
+
+# menu
+https://github.com/primaryobjects/Node.js-React-Starter-Template/blob/master/client/src/App.css#:~:text=/-,Node.js%2DReact%2DStarter%2DTemplate,-Public
+
+
+#### OTHER APPS IN MEDICAL SPACE
+Medibuddy
+Practo
 
  - - - -
 

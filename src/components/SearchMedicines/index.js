@@ -11,9 +11,11 @@ import {data} from './data.js'
 class SearchMedicines extends Component {
   render() {
     return (
-      <><p/>
-       <h1>Search Medicines</h1>
-        <p><br/>
+      <>
+       <br/>
+       <h2>Search Medicines</h2>
+       <br/>
+        <p>
             <SearchBox />
         </p>
       </>

@@ -23,7 +23,8 @@ class Home extends Component {
          instantly, while you key in the search. 
          </p>
          <p>
-         More tools coming soon..</p>
+         More tools coming soon. Meanwhile do reach out if you have feedback or suggestions. 
+         Our mail id is <a href="mailto:drtoolkit.pro@gmail.com">drtoolkit.pro@gmail.com</a></p>
          <br/>
          <p><i>~ Dr. Abhishek Payal</i></p>
       </>

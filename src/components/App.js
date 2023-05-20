@@ -4,12 +4,16 @@ import Home from './Home'
 import Header from './Header'
 import Footer from './Footer'
 import SearchMedicines from './SearchMedicines'
+import Login from './Login'
 /* import About from './About'
 import Contact from './Contact'*/
 import NotFound from './NotFound'
 import './App.css'
 
+
 class App extends Component{
+
+    
     render(){
        return( <BrowserRouter>
             <Header />
@@ -19,6 +23,7 @@ class App extends Component{
                             <Route exact path="/" element={<SearchMedicines />} />
                             <Route path="/home" element={<Home/>} />
                             <Route path="/searchmedicines" element={<SearchMedicines/>} />
+                            <Route path="/login" element={<Login/>} />
                             <Route path="*" element={<NotFound/>} />
                         </Routes>
                     </div>
