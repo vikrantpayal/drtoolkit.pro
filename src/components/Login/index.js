@@ -14,13 +14,11 @@ function Login(){
        console.log(userObject)
        setUser(userObject) 
        document.getElementById("signInDiv").hidden = true
-       document.getElementById("signOutDiv").hidden = false
    }
    
    function handleSignOut(event){
        setUser( {} )
        document.getElementById("signInDiv").hidden = false
-       document.getElementById("signOutDiv").hidden = true    
    }
       
       useEffect ( ()=> {
@@ -44,6 +42,10 @@ function Login(){
 
             <div id="signInDiv"></div>
             {
+                Object.keys(user).length != 0 &&
+                <button onClick={ (e) => handleSignOut(e)}>Sign Out </button>
+            }
+            {
                 user &&
                 <div>
                    <img src={user.picture}></img><br/><br/>
@@ -52,6 +54,10 @@ function Login(){
                </div>
             }
             <br/><br/><br/>  
+            {
+                  Object.keys(user).length != 0 &&
+                  <button onClick={ (e) => handleSignOut(e)}>Sign Out </button>
+            }  
                    <div id="signOutDiv">
                        <button onClick={ (e) => handleSignOut(e)}>
                            Sign Out 

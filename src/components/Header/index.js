@@ -9,7 +9,10 @@ class Header extends Component {
     <header>
       <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/home">Dr. Toolkit <sup>pro</sup> </Link>
+          <Link className="navbar-brand" to="/home">
+              <img src="https://drtoolkit.pro/favicon.ico" id="logo"></img>
+              Dr. Toolkit <sup>pro</sup> 
+          </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>

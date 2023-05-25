@@ -8,3 +8,11 @@ ul.navbar-nav a {
 ul.navbar-nav a:hover {
   color: lightblue;
 }
+
+#logo{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    box-shadow: -5px 1px 50px 1px  red;
+    border-radius: 5px;
+}

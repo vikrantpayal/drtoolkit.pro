@@ -56,10 +56,6 @@ const SearchBox = () => {
               <th>Ingredient 2</th>
               <th>Unit</th>
               <th>PTR</th>
-              <th>GST %</th>
-              <th>GST Amount</th>
-              <th>Total w GST</th>
-              <th>MRP</th>
               <th>Pharma</th>
             </tr>
           </thead>
@@ -69,28 +65,25 @@ const SearchBox = () => {
               .filter((item) => {
                 return search.toLowerCase() === ''
                   ? item
-                  : item.brand_name.toLowerCase().includes(search.toLowerCase()) ||
-                    item.category.toLowerCase().includes(search.toLowerCase())  ||
-                    item.sub_category.toLowerCase().includes(search.toLowerCase())  ||
-                    item.ingredient_1.toLowerCase().includes(search.toLowerCase())  ||
-                    item.ingredient_2.toLowerCase().includes(search.toLowerCase())  ||
+                  : item.brandName.toLowerCase().includes(search.toLowerCase()) || 
+                    item.category.toLowerCase().includes(search.toLowerCase()) ||
+                    item.subcategory.toLowerCase().includes(search.toLowerCase())  ||
+                    item.ingredient1.toLowerCase().includes(search.toLowerCase())  ||
+                    item.ingredient2.toLowerCase().includes(search.toLowerCase())  ||
                     item.unit.toLowerCase().includes(search.toLowerCase())  ||
+                    item.ptr.toLowerCase().includes(search.toLowerCase()) ||
                     item.pharma.toLowerCase().includes(search.toLowerCase());
               })
 
                   .map((item, index) => (
                   <tr key={index}>
-                      <td>{item.brand_name}</td>
+                      <td>{item.brandName}</td>
                       <td>{item.category}</td>
-                      <td>{item.sub_category}</td>
-                      <td>{item.ingredient_1}</td>
-                      <td>{item.ingredient_2}</td>
+                      <td>{item.subcategory}</td>
+                      <td>{item.ingredient1}</td>
+                      <td>{item.ingredient2}</td>
                       <td>{item.unit}</td>
                       <td>{item.ptr}</td>
-                      <td>{item.gst_percent}</td>
-                      <td>{item.gst_amount}</td>
-                      <td>{item.total_w_gst}</td>
-                      <td>{item.mrp}</td>
                       <td>{item.pharma}</td>
                    </tr>
                    ))}
