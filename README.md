@@ -5,12 +5,29 @@ fast tool for doctors (allopathy)
 
 ## MAJOR BUSINESS FEATURES
 - [ ] Medicine search
+    - [x] basic search of master data from json
+    - [ ] create local copy
+    - [ ] crud for local copy
+    - [ ] propose change to master 
+ 
+- [ ] Patient records
+   - [ ] link in menu
+   - [ ] searchable table 
+   - [ ] crud
+   - [ ] edit patient record pop-up
 
+
+- [ ] My Profile (for doctors)
+     
 ## MINOR TOOL FEATURES
 - [x] burger menu
 - [ ] about page
     - [x] temporary coverage on home page
 - [ ] Auth
+    - [x] google auth
+    - [ ] facebook 
+    - [ ] drtoolkit.pro auth
+    - [ ] 
 - [ ] blog
 - [ ] medicine search bells and whistles
     - [ ] offline copy
@@ -20,7 +37,8 @@ fast tool for doctors (allopathy)
 
 
 ## PURE DEV FEATURES
-- [ ] make header, menu common across pages
+- [x] make header, menu common across pages
+- [ ] performance of search - replace recurring function calls with variables
 - [ ] create a dev branch
     - [ ] push to github
     - [ ] aws amplify set up test version of site, connect to dev branch
