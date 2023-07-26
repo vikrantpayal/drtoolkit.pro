@@ -3,6 +3,9 @@
 ## ABOUT
 fast tool for doctors (allopathy)
 
+## ASPIRATION
+Ability to maintain patient records. Doctor and hospital staff records. Integration with govt health id. Look up diseases by symptoms, apply filters based on patient history (use llm). Anonymized data visualization of disease trends across nation. Medicine search and recommendation, localized for brands. Manage inventory of medicines in hospital pharma. Integrate inventory with medicine search. Predict infectious disease spread. Patient reminders for repeat consultation. 
+
 ## MAJOR BUSINESS FEATURES
 - [ ] Medicine search
     - [x] basic search of master data from json
